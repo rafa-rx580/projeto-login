@@ -5,19 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style/style.css" media="all">
+
+
+    
 </head>
 <body>
     <main>
         <section id="login">
-            <div id="image">
-
+            <div id="img" class="iimg">
+                <img src="images/pattern.jpg" alt="Pattern">
             </div>
 
-            <div id="form">
-                <h1>Seja bem vindo(a)</h1>
-                <p>Faca login para acessar sua conta.</p>
+            <div id="form" class="iform">
+                <section id="present">
+                    <h1>Seja bem vindo(a)</h1>
+                    <p>Faca login para acessar sua conta.</p>
+                </section>
                 <form action="login.php" method="post">
-
+                        <p class="user">
+                            <label for="usr" id="person">
+                                user
+                            </label>
+                            <input type="text" required minlength="6" maxlength="15" id="usr">
+                        </p>
+                        <p class="pass">
+                            <label for="psw" id="key">
+                                Password:
+                            </label>
+                            <input type="password" required minlength="8" id="psw">
+                        </p>
+                        <p class="enviar"><input type="submit" id="ienviar"></p>
+                        <p class="esqueci"><input type="button" value="Forgot Password" id="iesqueci"></p>
                 </form>
             </div>
         </section>
