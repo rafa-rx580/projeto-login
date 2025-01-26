@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to top, #1138BA, #4F6DD0);
+}
+
+#login{
+    width: 900px;
+}
+
+#img{
+    float: left;
+    height: 100%;
+    width: 40%;
+
+}
+
+#form{
+    float: right;
+    width: 60%;
+    height: 100%;
+}
+
+form > h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+form > p{
+    text-align: justify;
+    font-size: 1.3em;
+}
