@@ -58,3 +58,66 @@ main{
     display: block;
     padding: 10px;
 }
+
+form > h1{
+    margin-bottom: 10px;
+}
+
+form > p{
+    font-size: 0.9em;
+}
+
+.but{
+    margin-top: 10px;
+}
+
+#log{
+    display: block;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    background-color: #0C2988;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#log:hover{
+    background-color: #4F6DD0;
+    transition: background-color 0.2s;
+    transition-timing-function: ease;
+}
+
+#fgt{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #9bb2ff;
+    background-color: #1a3fb6;
+    width: 100%;
+    height: 40px;
+    padding-top: 8px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#fgt:hover{
+    background-color: #6182ee;
+    transition: background-color 0.2s;
+    transition-timing-function: ease;
+    color: white;
+}
+
+#icon{
+    font-size: 0.8em;
+}
+
+.camp{
+    display: block;
+    background-color: #2F52C6;
+    padding: 5px;
+    margin: 5px 0px;
+    height: 40px;
+    border-radius: 5px;
+}

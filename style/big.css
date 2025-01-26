@@ -9,14 +9,14 @@ body{
 }
 
 #img{
-    float: left;
+    float: right;
     height: 100%;
     width: 40%;
 
 }
 
 #form{
-    float: right;
+    float: left;
     width: 60%;
     height: 100%;
 }
@@ -29,4 +29,18 @@ form > h1{
 form > p{
     text-align: justify;
     font-size: 1.3em;
+}
+
+#log{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#fgt{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
 }

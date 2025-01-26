@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css" media="all">
     <link rel="stylesheet" href="style/medium.css" media="screen and (min-width: 768px) and (max-width: 992px)">
     <link rel="stylesheet" href="style/big.css" media="screen and (min-width: 992px)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 
     
@@ -18,20 +19,32 @@
 
             </div>
             <div id="form">
-                <form action="cadastro.php">
+                <form action="cadastro.php" method="post" autocomplete="on">
                     <h1>Login</h1>
                     <p>Faça login para entrar na sua conta e poder realizar suas atividades.</p>
-                    <p>
-                        <label for="usr">
-                        </label>
-                        <input type="text" id="usr" class="iusr" required minlength="3" maxlength="15">
-                    </p>
-                    <p>
-                        <label for="psw">
+                        <div class="camp">
+                            
+                            <label for="usr">
+                                <i class="material-icons">person</i>   
+                            </label>
 
-                        </label>
-                        <input type="password" id="psw" class="ipsw" required minlength="8">
-                    </p>
+                            <input type="email" id="usr" class="iusr" required placeholder="Seu E-Mail" autocomplete="email">
+        
+
+                        </div>
+                        <div class="camp"> 
+                            <label for="psw">
+                                <i class="material-icons">vpn_key</i>
+                            </label>
+
+                            <input type="password" id="psw" class="ipsw" required minlength="8" placeholder="Sua Senha" autocomplete="current-password">
+                            
+                        </div>    
+
+                        <input type="submit" value="Entrar" id="log" class="but">
+                        <a href="esqueci.html" class="but" id="fgt">Esqueci minha senha <i class="material-icons" id="icon">mail</i></a>
+                                
+                        
                 </form>
             </div>
         </section>
