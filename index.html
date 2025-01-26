@@ -12,30 +12,24 @@
 <body>
     <main>
         <section id="login">
-            <div id="img" class="iimg">
-                <img src="images/pattern.jpg" alt="Pattern">
-            </div>
+            <div id="img">
 
-            <div id="form" class="iform">
-                <section id="present">
-                    <h1>Seja bem vindo(a)</h1>
-                    <p>Faca login para acessar sua conta.</p>
-                </section>
-                <form action="login.php" method="post">
-                        <p class="user">
-                            <label for="usr" id="person">
-                                user
-                            </label>
-                            <input type="text" required minlength="6" maxlength="15" id="usr">
-                        </p>
-                        <p class="pass">
-                            <label for="psw" id="key">
-                                Password:
-                            </label>
-                            <input type="password" required minlength="8" id="psw">
-                        </p>
-                        <p class="enviar"><input type="submit" id="ienviar"></p>
-                        <p class="esqueci"><input type="button" value="Forgot Password" id="iesqueci"></p>
+            </div>
+            <div id="form">
+                <form action="cadastro.php">
+                    <h1>Login</h1>
+                    <p>Faça login para entrar na sua conta e poder realizar suas atividades.</p>
+                    <p>
+                        <label for="usr">
+                        </label>
+                        <input type="text" id="usr" class="iusr" required minlength="3" maxlength="15">
+                    </p>
+                    <p>
+                        <label for="psw">
+
+                        </label>
+                        <input type="password" id="psw" class="ipsw" required minlength="8">
+                    </p>
                 </form>
             </div>
         </section>

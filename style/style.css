@@ -15,7 +15,8 @@ Cinza:
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
 }
 
 html, body{
@@ -24,94 +25,34 @@ html, body{
 }
 
 body{
-    background-color: #6EC2E6;
+    background-color: #2F52C6;
 }
 
 main{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-img{
-    display: block;
-    min-width: 300px;
-    max-width: 350px;
-    min-height: 350px;
-    max-height: 400px;
-    margin-top: 60px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.iform{
+#login{
+    width: 250px;
+    height: 550px;
     background-color: white;
-    min-height: 350px;
-    max-height: 400px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;    
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
 }
 
-.iform > section#present{
+#img{ 
+    background: url(../images/pattern.jpg);
+    background-size: cover;
+    height: 200px;
+    display: block;
+}
+
+#form{
+    display: block;
     padding: 10px;
-}
-
-.iform > section#present > h1{
-    padding-bottom: 15px;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.iform > section#present > p{
-    text-align: justify;
-}
-
-.iform > form > p{
-    padding: 10px;
-}
-
-.user, .pass{
-    background-color: #6E77E6;
-    min-width: 80%;
-    max-width: 85%;
-    min-height: 30px;
-    max-height: 35px;
-    margin: auto;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.user{
-    margin-bottom: 10px;
-}
-
-#person, #key{
-    color: white;
-    margin-right: 9px;
-}
-
-#psw, #usr{
-    height: 40px;
-    border-radius: 10px;
-    background-color: #6E9DE6;
-}
-
-#ienviar, #iesqueci{
-    width: 100%;
-    height: 40px;
-    margin: auto;
-    background-color: #6E77E6;
-    cursor: pointer;
-    border-radius: 10px;
-    font-size: 1.2em;
-    color: white;
-}
-
-#ienviar:hover{
-    background-color: #BBCBE6;
-}
-#iesqueci:hover{
-    background-color: #BBCBE6;
 }
