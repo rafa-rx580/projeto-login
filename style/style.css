@@ -61,10 +61,12 @@ main{
 
 form > h1{
     margin-bottom: 10px;
+    margin-top: 25px;
 }
 
 form > p{
     font-size: 0.9em;
+    margin-bottom: 25px;
 }
 
 .but{
@@ -115,9 +117,30 @@ form > p{
 
 .camp{
     display: block;
-    background-color: #2F52C6;
-    padding: 7px;
+    background-color: #0C2988;
+    padding: 4px;
     margin: 5px 0px;
-    height: 40px;
-    border-radius: 5px;
+    height: 45px;
+    border-radius: 7px;
+}
+
+#usu, #sen{
+    display: block;
+    float: left;
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+    width: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transform: translate(-3px, -4px);
+}
+
+input[type="email"], input[type="password"]{
+    background-color: white;
+    height: 100%;
+    width: calc(100% - 40px);
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
 }
